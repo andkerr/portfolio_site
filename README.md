@@ -2,4 +2,4 @@
 
 https://andkerr.github.io
 
-Personal website for computer projects / resume / academic info, etc.
+Website for listing projects / resume / academic info, etc.

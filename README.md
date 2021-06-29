@@ -1,3 +1,5 @@
 # andkerr.github.io
 
-Personal website for computer projects / resume / academic info, etc.
+https://andkerr.github.io
+
+Website for listing projects / resume / academic info, etc.

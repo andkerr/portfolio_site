@@ -1,9 +1,12 @@
+body {
+    padding-top: 75px;
+}
+
+.container {
+    padding-top: 75px;
+}
+
 .ext-link {
     text-decoration: none;
     margin: 35px;
-}
-
-.container-flex {
-    margin-inline: 175px;
-    margin-block: 100px;
 }

@@ -3,6 +3,7 @@
     margin: 35px;
 }
 
-.container {
-    margin: 60px;
+.container-flex {
+    margin-inline: 175px;
+    margin-block: 100px;
 }

@@ -1,10 +1,10 @@
 body {
     padding-top: 120px;
-    padding-inline: 175px;
 }
 
 .container {
     padding-top: 65px;
+    padding-inline: 175px !important;
 }
 
 #contact {

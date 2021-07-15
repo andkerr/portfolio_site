@@ -7,6 +7,10 @@ body {
     padding-top: 75px;
 }
 
+#contact {
+    padding-top: 0px;
+}
+
 .ext-link {
     text-decoration: none;
     margin: 35px;

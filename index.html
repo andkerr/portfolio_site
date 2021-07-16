@@ -3,12 +3,18 @@
 <head>
     <title>Andrew Kerr</title>
 
+    <!--Page is styled with a combination of pre-compiled Bootstrap CSS and custom CSS.
+        'styles.css' contains alignment rules for the whole page and sections in the main body.-->
     <link href="styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+    <!--Navbar holds my name and links to page sections.
+        Much of the styling is contained in Bootstrap's "navbar" class.
+        Fixed-top keeps at the top of the page while scrolling.-->
     <nav class="navbar border-bottom bg-light fixed-top">
-        <a class="px-3 me-md-auto text-decoration-none" href="https://andkerr.github.io">
+        <!--Name is also a 'back to top' link.-->
+        <a class="px-3 me-auto text-decoration-none" href="https://andkerr.github.io">
             <span class="fs-4">Andrew Kerr</span>
         </a>
         <ul class="nav">
@@ -32,21 +38,26 @@
             <li>
          </ul>
     </nav>
+    <!--Banner with name, photo, basic school info. Bootstrap's
+        row-cols-* feature specifies adjacent sections for text and image
+        in the same row.-->
     <div class="row row-cols-2">
-        <div class="feature col text-end">
+        <div class="col text-end">
             <h2>Andrew Kerr</h2>
-            <h6>Physics & Percussion Dual Degree Student</h6>
+            <h6>Physics & Percussion Student</h6>
             <h6>University of Michigan</h6>
             <h6>Class of 2023</h6>
         </div>
-        <div class="feature col">
+        <div class="col">
             <picture>
                 <img src="./images/headshot.jpg" class="img-fluid img-thumbnail justify-content-center" alt="headshot" width="200">
             </picture>
         </div>
     </div>
+    <!--Section header and text are padded and aligned with
+        Bootstrap's p*-* and m*-* spacing utilities.-->
     <div class="container" id="about">
-        <header class="d-flex pb-2 mb-4 border-bottom">
+        <header class="d-block pb-2 mb-4 border-bottom">
             <h4 class="mb-0">About Me</h4>
         </header>
         <p class="px-4">
@@ -64,6 +75,8 @@
             organization.
         </p>
     </div>
+    <!--Individual items in 'Education' and 'Experience' are each contained
+        in a Bootstrap 'card' component.-->
     <div class="container" id="education">
         <header class="d-flex pb-2 mb-4 border-bottom">
             <h4 class="mb-0">Education</h4>
@@ -124,6 +137,9 @@
                         <img src="./images/freud.jpg" class="img-fluid rounded" width="300">
                     </div>
                 </div>
+            </div>
+            <div class="card-footer">
+                <span>April 2021 - Present</span>
             </div>
         </div>
         <div class="card mb-3">

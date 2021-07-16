@@ -4,7 +4,7 @@ body {
 
 .container {
     padding-top: 65px;
-    padding-inline: 175px !important;
+    padding-inline: 10% !important;
 }
 
 #contact {

@@ -15,3 +15,15 @@ body {
     text-decoration: none;
     margin: 35px;
 }
+
+.embedded-link {
+    text-decoration: none;
+}
+
+.embedded-link:hover {
+    text-decoration: underline;
+}
+
+.embedded-link:visited {
+    text-decoration: none;
+}

@@ -2,4 +2,4 @@
 
 https://andkerr.github.io
 
-Website for listing projects / resume / academic info, etc. Bootstrap components are included under the MIT License.
+Website for listing projects / resume / academic info, etc.

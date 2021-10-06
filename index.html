@@ -163,16 +163,14 @@
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col d-flex flex-column">
                         <h6 class="card-subtitle mb-2 text-muted">U of M Logistics, Transportation & Parking</h6>
-                        <ul>
-                            <p class="card-text">
-                                U of M's "Blue Buses" are a campus fixture. I worked for the Transportation Department
-                                during the 2020 - 2021 school year, which involved a 3-month traning process, rigorous
-                                saftey procedures, and detailed record keeping of passenger counts, miles driven, and other
-                                route-related quantites. Bus drivers are required to memorize 9 inter- and intra-campus routes.
-                            </p>
-                        </ul>
+                        <p class="card-text">
+                            U of M's "Blue Buses" are a campus fixture. I worked for the Transportation Department
+                            during the 2020 - 2021 school year, which involved a 3-month traning process, rigorous
+                            saftey procedures, and detailed record keeping of passenger counts, miles driven, and other
+                            route-related quantites. Bus drivers are required to memorize 9 inter- and intra-campus routes.
+                        </p>
                     </div>
                     <div class="col-md-auto">
                         <img src="./images/bluebus.jpg" class="img-fluid rounded" width="300">
@@ -190,19 +188,17 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col">
-                        <h6 class="card-subtitle mb-2 text-muted">U of M Physics Department</h6>
-                        <ul>
+                        <div>
+                            <h6 class="card-subtitle mb-2 text-muted">U of M Physics Department</h6>
                             <p class="card-text">
                                 I was an assistant instructor for U of M's introductory mechanics course,
-                                which enrols ~600 students per semester. Course coordinators were experimenting
-                                with a new lab-style presentation of the course, in which I was responsible for
-                                a group of 24 students throughout the semester. I oversaw in-class group
-                                work periods, and clarified students' questions about assignments and course concepts.
+                                which enrols ~600 students per semester. I supervised an in-class group of
+                                24 students and clarified students' questions about assignments and course concepts.
                             </p>
-                        </ul>
+                        </div>
                     </div>
                     <div class="col-md-auto">
-                        <img src="./images/bsb.jpg" class="img-fluid rounded" width="300">
+                        <img src="./images/bsb.jpg" class="img-fluid rounded" width="300" style="padding: auto 0 auto 0;">
                     </div>
                 </div>
             </div>
@@ -221,22 +217,27 @@
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col d-flex align-items-center">
                         <p class="card-text">
                             Toy implementation of an online auction website.
                             Users can register for accounts and create product listings,
                             on which other users can place bids, write comments, and
-                            add to their wishlist items. Created using Django, Python,
-                            SQLite, CSS/HTML, and Bootstrap.
-                        </p>
-                        <p>
-                            Source code available <a href="https://github.com/andkerr/mytoyauctionsite" class="embedded-link">here</a>
+                            add to their wishlist items.
+
+                            <br><br>
+                            <a href="https://github.com/andkerr/mytoyauctionsite" class="embedded-link">Github</a>
                         </p>
                     </div>
                     <div class="col-md-auto">
                         <img src="./images/auctionsite.jpg" class="img-fluid rounded" width="300" style="border: 1px solid;">
                     </div>
                 </div>
+            </div>
+            <div class="card-footer">
+                <img src="images/django_icon.png" class="rounded" width="30"><span class="ps-1">Django</span>
+                <img src="images/python.jpg" class="rounded ms-2" width="30"><span class="ps-1">Python</span>
+                <img src="images/sqlite_icon.svg.png" class="rounded ms-2" width="30"><span class="ps-1">SQLite</span>
+                <img src="images/bootstrap-logo.svg" class="rounded ms-2" width="32"><span class="ps-1">Bootstrap</span>
             </div>
         </div>
         <div class="card mb-5">
@@ -245,20 +246,24 @@
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col d-flex align-items-center">
                         <p class="card-text">
-                            A simple implementation of the <a href="https://en.wikipedia.org/wiki/Lorenz_system" class="embedded-link">Lorenz Attractor</a>.
-                            Complete with a CLI that supports up to 5
-                            simultaneous attractors and sets of initial conditions.
-                        </p>
-                        <p>
-                            Source code available <a href="https://github.com/andkerr/lorenz_attractor" class="embedded-link">here</a>
+                            This project implements a CLI that lets users simulate
+                            up to 5 Lorenz Attractors, which are chaotic solutions
+                            to the Lorenz System of Differential Equations. The
+                            resulting animations look amazing.
+                            
+                            <br><br>
+                            <a href="https://github.com/andkerr/lorenz_attractor" class="embedded-link">Github</a>
                         </p>
                     </div>
                     <div class="col-md-auto">
                         <img src="./images/lorenz.png" class="img-fluid rounded" width="300">
                     </div>
                 </div>
+            </div>
+            <div class="card-footer">
+                <img src="images/python.jpg" class="rounded" width="30"><span class="ps-1">Python</span>
             </div>
         </div>
     </div>
@@ -275,6 +280,12 @@
             </div>
             <div class="col text-center">
                 <figure class="figure">
+                    <img src="./images/c.jpg" height="100">
+                    <figcaption class="figure-caption pt-3">C++</figcaption>
+                </figure>
+            </div>
+            <div class="col text-center">
+                <figure class="figure">
                     <img src="./images/html.jpg" height="100">
                     <figcaption class="figure-caption pt-3">HTML</figcaption>
                 </figure>
@@ -285,18 +296,12 @@
                     <figcaption class="figure-caption pt-3">CSS</figcaption>
                 </figure>
             </div>
-            <div class="col text-center">
-                <figure class="figure">
-                    <img src="./images/django.jpg" height="100">
-                    <figcaption class="figure-caption pt-3">Django</figcaption>
-                </figure>
-            </div>
         </div>
         <div class="row row-cols-3 my-5">
             <div class="col text-center">
                 <figure class="figure">
-                    <img src="./images/c.jpg" height="100">
-                    <figcaption class="figure-caption pt-3">C++</figcaption>
+                    <img src="./images/django.jpg" height="100">
+                    <figcaption class="figure-caption pt-3">Django</figcaption>
                 </figure>
             </div>
             <div class="col text-center">

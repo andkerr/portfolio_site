@@ -30,7 +30,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@b36f842fa378d7cbf6695fcac86ecdcef3af8af3
         with:
           branch: revised
-          folder: build/
+          folder: build/final
           git-config-name: github-actions[bot]
           git-config-email: <>
           single-commit: true

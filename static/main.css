@@ -1,0 +1,28 @@
+html {
+    background-color: #EDE1C0;
+    font-family: monospace;
+}
+
+a {
+    color: #E0792F;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 2em;
+    padding-left: 2em;
+    margin-bottom: 2em;
+}
+
+article {
+    width: 75ch;
+}

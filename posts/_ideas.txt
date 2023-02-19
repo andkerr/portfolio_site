@@ -1,0 +1,1 @@
+- truncated division (C/C++) vs. floor division (Python) vs. Euclidian division

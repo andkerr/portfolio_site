@@ -1,0 +1,40 @@
+{% macro nav_items() %}
+{% for nav_page, nav_url in nav.items() %}
+<li><a href="{{ nav_url }}">{{ nav_page }}</a></li>
+{% endfor %}
+{% endmacro %}
+
+{% macro post_links() %}
+{% for post_title, post_url in posts.items()|reverse %}
+<li><a class="post-link" href="{{ post_url }}">{{ post_title }}</a></li>
+{% endfor %}
+{% endmacro %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Andrew Kerr">
+  <meta name="description"
+        content="Andrew's personal site, full of reaallly neat stuff">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="syntax.css">
+  <title>{{ name }} | {% block title required %}{% endblock %}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ name }}</h1>
+    <ul class="navbar">
+      {% filter indent(width=6) -%}
+      {{ nav_items() }}
+      {%- endfilter %}
+    </ul>
+  </header>
+  <article>
+    {% filter indent(width=4) -%}
+    {% block content required %}{% endblock %}
+    {%- endfilter %}
+  </article>
+</body>
+</html>
